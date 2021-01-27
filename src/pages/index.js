@@ -20,6 +20,12 @@ const IndexPage = ({ data }) => (
       keywords={[`Matt Sloniker`, `Photographer`, `Drone Photographer`, `Madison` , 'Arieal Drone Photographer']}
     />
     <Banner data={data.contentfulAboutMe}></Banner>
+  
+    {data.contentfulSiteInformation.menus
+      .filter(item => item === "Work")
+      .map(t => {
+        return <Work key="Work" data={data.allContentfulWorks}></Work>;
+      })}
 
     {data.contentfulSiteInformation.menus
       .filter(item => item === "About")
@@ -37,12 +43,6 @@ const IndexPage = ({ data }) => (
       .filter(item => item === "Blogs")
       .map(t => {
         return <Blogs key="Blogs" data={data.allContentfulBlogs}></Blogs>;
-      })}
-
-    {data.contentfulSiteInformation.menus
-      .filter(item => item === "Work")
-      .map(t => {
-        return <Work key="Work" data={data.allContentfulWorks}></Work>;
       })}
 
     {data.contentfulSiteInformation.menus
