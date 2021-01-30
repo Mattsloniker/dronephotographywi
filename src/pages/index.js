@@ -12,6 +12,7 @@ import Blogs from "../components/blogs";
 import Testimonial from "../components/testimonial";
 import Contact from "../components/contact";
 import Photos from "../components/photos";
+import YouTube from "../components/youtube";
 
 const IndexPage = ({ data }) => (
   <Layout header="home">
