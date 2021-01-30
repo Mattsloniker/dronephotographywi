@@ -7,7 +7,7 @@
   <h1 align="center">
     RG-Portfolio
   </h1>
-  <img src="https://raw.githubusercontent.com/Mattsloniker/dronephotographywi/master/src/images/dronephotowi.PNG" width="550" height="500" />
+  <img src="https://raw.githubusercontent.com/Mattsloniker/dronephotographywi/master/src/images/dronephotowi.PNG" width="950" height="900" />
 
 Kick-off your Portfolio website with RG-Portfolio gatsby starter. We have used [Gatsby](https://www.gatsbyjs.org/) + [Contenful](https://www.gatsbyjs.org/packages/gatsby-source-contentful/?=Contenful).
 
