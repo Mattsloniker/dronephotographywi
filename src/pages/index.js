@@ -34,6 +34,14 @@ const IndexPage = ({ data }) => (
         return <Service key="Service" data={data.allContentfulService}></Service>;
       })}
 
+   {data.contentfulSiteInformation.menus
+      .filter(item => item === "YouTube")
+      .map(t => {
+        return <Contact key="Youtube" data={data.allContentfulYouTube}></Contact>;
+      })}
+  </Layout>
+);
+
     {data.contentfulSiteInformation.menus
       .filter(item => item === "Testimonials")
       .map(t => {
