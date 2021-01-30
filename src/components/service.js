@@ -8,7 +8,7 @@ export default class service extends Component {
         <div className="container">
         <div className="see-more">
           <div className="section-head">
-            <h2>Service</h2>
+            <h2>Drone Photography Wisconsin FAQs</h2>
           </div>
           <div className="row">
             {data.edges.map((item, index) => {
