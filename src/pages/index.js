@@ -34,12 +34,6 @@ const IndexPage = ({ data }) => (
       })}
 
     {data.contentfulSiteInformation.menus
-      .filter(item => item === "Blogs")
-      .map(t => {
-        return <Blogs key="Blogs" data={data.allContentfulBlogs}></Blogs>;
-      })}
-
-    {data.contentfulSiteInformation.menus
       .filter(item => item === "Testimonials")
       .map(t => {
         return (
@@ -51,6 +45,12 @@ const IndexPage = ({ data }) => (
       .filter(item => item === "Photos")
       .map(t => {
         return <Photos key="Photos" data={data.contentfulPhotos}></Photos>;
+      })}
+
+    {data.contentfulSiteInformation.menus
+      .filter(item => item === "Blogs")
+      .map(t => {
+        return <Blogs key="Blogs" data={data.allContentfulBlogs}></Blogs>;
       })}
 
     {data.contentfulSiteInformation.menus
