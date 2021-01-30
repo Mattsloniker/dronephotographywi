@@ -39,8 +39,6 @@ const IndexPage = ({ data }) => (
       .map(t => {
         return <Contact key="Youtube" data={data.allContentfulYouTube}></Contact>;
       })}
-  </Layout>
-);
 
     {data.contentfulSiteInformation.menus
       .filter(item => item === "Testimonials")
