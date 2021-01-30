@@ -34,12 +34,6 @@ const IndexPage = ({ data }) => (
       })}
 
     {data.contentfulSiteInformation.menus
-      .filter(item => item === "Photos")
-      .map(t => {
-        return <Photos key="Photos" data={data.contentfulPhotos}></Photos>;
-      })}
-
-    {data.contentfulSiteInformation.menus
       .filter(item => item === "Testimonials")
       .map(t => {
         return (
