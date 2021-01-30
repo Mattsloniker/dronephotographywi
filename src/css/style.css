@@ -13,7 +13,7 @@ p{font-size:14px}
 a:hover{color:#d83d0a;text-decoration:underline}
 .banner .banner-details{position:absolute;top:50%;left:50%;z-index:9;display:flex;justify-content:center;align-items:center;flex-direction:column;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);width:90%;color:#fff}
 .banner img{width:100%;height:100%;-o-object-fit:cover;object-fit:cover}
-body{margin:0;background:#fafafe}
+body{margin:0;background:#fff}
 .banner .banner-details span{font-size:25px;margin-bottom:20px;text-shadow:1px 1px 4px #333}
 .banner .banner-details h1{font-size:60px;margin-top:0;margin-bottom:20px;text-align:center;text-shadow:1px 1px 4px #333}
 .banner:after{content:"";background:rgba(0,0,0,0.55);position:absolute;left:0;right:0;top:0;bottom:0}
@@ -51,7 +51,7 @@ body{margin:0;background:#fafafe}
 .about-details .socials ul li a:hover:after{top:0}
 .about-details .socials ul li a:hover{color:#fff}
 .service-main{text-align:center;box-shadow:3px 3px 8px 2px #0000000a;padding:30px 30px;transition:0.5s all;background:#fff}
-.section:nth-child(even) .service-main{background:#fafafe}
+.section:nth-child(even) .service-main{background:#fff}
 .service-main:hover{box-shadow:3px 3px 8px 2px #0000002b;transition:0.5s all}
 .slick-slider .slick-list div{display:flex;width:100%;text-align:center}
 .slick-slider .slick-arrow{display:none!important}
@@ -69,7 +69,7 @@ body{margin:0;background:#fafafe}
 .testimonials{text-align:center}
 form label{width:100%}
 form input,
-form textarea{display:block;width:100%;padding:10px 15px;box-sizing:border-box;outline:none;resize:none;background:#fafafe!important;z-index:2;position:relative;line-height:18px;font-size:16px;-webkit-transition:none 0s ease 0s;transition:none 0s ease 0s;border:1px solid hsla(0,0%,80%,.37);margin:10px 0 0}
+form textarea{display:block;width:100%;padding:10px 15px;box-sizing:border-box;outline:none;resize:none;background:#fff!important;z-index:2;position:relative;line-height:18px;font-size:16px;-webkit-transition:none 0s ease 0s;transition:none 0s ease 0s;border:1px solid hsla(0,0%,80%,.37);margin:10px 0 0}
 form textarea{height:100px}
 form button{text-indent:-10px;background:#333;color:#fff;box-shadow:0 10px 50px rgba(58,58,58,.26);line-height:1px;padding:23px;text-transform:capitalize;-webkit-transition:all .3s linear;transition:all .3s linear;min-width:186px;overflow:hidden;-webkit-border-radius:4px;-moz-border-radius:4px;font-size:15px;border:none;display:inline-block}
 form>div{margin-bottom:15px}
