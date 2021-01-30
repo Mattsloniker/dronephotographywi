@@ -1,7 +1,7 @@
   <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
   <p align="center">
     <a href="https://rg-portfolio.netlify.com/">
-      <img alt="rg-portfolio" src="https://github.com/rohitguptab/rg-portfolio/blob/master/src/images/fev_icon.png" width="50" />
+      <img alt="rg-portfolio" src="https://github.com/Mattsloniker/dronephotographywi/blob/master/src/images/design3.png?raw=true" width="100" />
     </a>
   </p>
   <h1 align="center">
