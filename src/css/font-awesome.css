@@ -1151,7 +1151,9 @@ readers do not read off random characters that represent icons */
 .fa-chevron-left:before {
   content: "\f053";
 }
-
+.fa-tiktok:before {
+  content: "\e07b";
+}
 .fa-chevron-right:before {
   content: "\f054";
 }
@@ -2722,6 +2724,74 @@ readers do not read off random characters that represent icons */
 
 .fa-home:before {
   content: "\f015";
+}
+
+.fa-hooli:before {
+  content: "\f427";
+}
+
+.fa-hornbill:before {
+  content: "\f592";
+}
+
+.fa-horse:before {
+  content: "\f6f0";
+}
+
+.fa-horse-head:before {
+  content: "\f7ab";
+}
+
+.fa-hospital:before {
+  content: "\f0f8";
+}
+
+.fa-hospital-alt:before {
+  content: "\f47d";
+}
+
+.fa-hospital-symbol:before {
+  content: "\f47e";
+}
+
+.fa-hot-tub:before {
+  content: "\f593";
+}
+
+.fa-hotdog:before {
+  content: "\f80f";
+}
+
+.fa-hotel:before {
+  content: "\f594";
+}
+
+.fa-hotjar:before {
+  content: "\f3b1";
+}
+
+.fa-hourglass:before {
+  content: "\f254";
+}
+
+.fa-hourglass-end:before {
+  content: "\f253";
+}
+
+.fa-hourglass-half:before {
+  content: "\f252";
+}
+
+.fa-hourglass-start:before {
+  content: "\f251";
+}
+
+.fa-house-damage:before {
+  content: "\f6f1";
+}
+
+.fa-houzz:before {
+  content: "\f27c";
 }
 
 .fa-hooli:before {
