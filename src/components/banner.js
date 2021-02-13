@@ -53,6 +53,8 @@ export default class Banner extends Component {
                   rel="noopener noreferrer"
                 ></a>
               </li>
+              </ul>
+              <ul className="social">
               <li>
                 <a
                   className="fab fa-instagram"
