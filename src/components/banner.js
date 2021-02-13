@@ -53,6 +53,22 @@ export default class Banner extends Component {
                   rel="noopener noreferrer"
                 ></a>
               </li>
+                 <li>
+                <a
+                  className="fab fa-tiktok"
+                  href="https://vm.tiktok.com/ZMeehDy4p/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </li>
+              <li>
+                <a
+                  className="fab fa-pinterest-p"
+                  href="https://www.pinterest.com/hhphotographywi/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </li>
             </ul>
           </div>
         </div>
