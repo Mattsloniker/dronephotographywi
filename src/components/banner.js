@@ -39,6 +39,14 @@ export default class Banner extends Component {
               </li>
               <li>
                 <a
+                  className="fab fa-snapchat"
+                  href="https://www.snapchat.com/add/wiphotographer/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
+              </li>
+              <li>
+                <a
                   className="fab fa-instagram"
                   href={data.instagram}
                   target="_blank"
