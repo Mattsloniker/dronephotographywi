@@ -16,7 +16,9 @@ export default class Banner extends Component {
             <span></span>
             <h1>Wisconsin Drone Photography</h1>
             <ul className="sub-data">
-              We serve the Southern Wisconsin and Northern Illinois area providing professional drone photography and videography services.
+             {data.bannerList.map((item, index) => {
+              return <li key={index}>{item}</li>;
+              })}
             </ul>
             <ul className="social">
               <li>
