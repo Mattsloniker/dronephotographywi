@@ -37,6 +37,7 @@ const Layout = ({ children, header }) => (
           siteTitle={data.contentfulSiteInformation.siteName}
           header={header}
         />
+        <!-- TradeDoubler site verification 3207883 -->
         <div>
           <main id="home">{children}</main>
         </div>
