@@ -7,8 +7,8 @@ export default class work extends Component {
     return (
       <div className="work section" id="Work">
         <div className="container">
-          <div className="section-head">
-            <h2 className="text-center">Commercial Real Estate</h2>
+           <div className="section-head text-center">
+            <h2>Commercial Real Estate</h2>
           </div>
           <ul className="work-list">
             {data.edges.map((item, index) => {
