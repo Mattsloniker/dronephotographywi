@@ -48,11 +48,11 @@ export default class Header extends Component {
                     <Link to="/#home">Home</Link>
                   </li>
                   {data.menus
-                    .filter(item => item === "About")
+                    .filter(item => item === "About Us")
                     .map(t => {
                       return (
                         <li key="About">
-                          <Link to={`/#About`}>About</Link>
+                          <Link to={`https://dronephotographywi.com/about-us`}>About</Link>
                         </li>
                       );
                     })}
