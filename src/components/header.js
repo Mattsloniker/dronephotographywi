@@ -59,7 +59,7 @@ export default class Header extends Component {
                         </li>
                       );
                     })}
-                        <li key="Blogs">
+                        <li>
                           <Link to="https://dronephotographywi.blog">Blogs</Link>
                         </li>                  
                   {data.menus
