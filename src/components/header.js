@@ -59,16 +59,9 @@ export default class Header extends Component {
                         </li>
                       );
                     })}
-                  /*{data.menus
-                    .filter(item => item === "Blogs")
-                    .map(t => {
-                      return (*/
                         <li key="Blogs">
                           <Link to="https://dronephotographywi.blog">Blogs</Link>
-                        </li>
-                     /* );
-                    })}*/
-
+                        </li>                  
                   {data.menus
                     .filter(item => item === "Work")
                     .map(t => {
