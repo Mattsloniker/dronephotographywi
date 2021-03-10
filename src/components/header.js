@@ -64,7 +64,7 @@ export default class Header extends Component {
                     .map(t => {
                       return (
                         <li key="Blogs">
-                          <Link to={`/#Blogs`}>Blogs</Link>
+                          <Link to="https://dronephotographywi.blog">Blogs</Link>
                         </li>
                       );
                     })}
@@ -96,9 +96,6 @@ export default class Header extends Component {
                         </li>
                       );
                     })}
-                    <li>
-                          <Link to="https://dronephotographywi.blog">Blog</Link>
-                    </li>
                 </ul>
               </div>
             ) : (
