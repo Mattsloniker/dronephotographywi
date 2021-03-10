@@ -96,6 +96,9 @@ export default class Header extends Component {
                         </li>
                       );
                     })}
+                    <li>
+                          <Link to="https://dronephotographywi.blog">Blog</Link>
+                    </li>
                 </ul>
               </div>
             ) : (
