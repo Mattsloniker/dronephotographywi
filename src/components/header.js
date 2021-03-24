@@ -80,15 +80,6 @@ export default class Header extends Component {
                         </li>
                       );
                     })}
-                  {data.menus
-                    .filter(item => item === "Contact")
-                    .map(t => {
-                      return (
-                        <li key="Contact">
-                          <Link to={`/#Contact`}>Contact</Link>
-                        </li>
-                      );
-                    })}
                 </ul>
               </div>
             ) : (
