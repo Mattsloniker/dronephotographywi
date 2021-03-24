@@ -60,7 +60,7 @@ export default class Header extends Component {
                       );
                     })}
                         <li>
-                          <Link to="https://dronephotographywi.blog">Blogs</Link>
+                          <a href="https://dronephotographywi.blog">Blogs</a>
                         </li>                  
                   {data.menus
                     .filter(item => item === "Work")
