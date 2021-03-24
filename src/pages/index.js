@@ -14,8 +14,12 @@ import Contact from "../components/contact";
 import Photos from "../components/photos";
 import YouTube from "../components/youtube";
 
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-066b1035-dc68-422f-9df4-6832cff3cd76"></div>
+
 const IndexPage = ({ data }) => (
   <Layout header="home">
+  
     <SEO
       title={data.contentfulAboutMe.designation}
       keywords={[`Matt Sloniker`, `Photographer`, `Drone Photographer`, `Madison` , 'Arieal Drone Photographer']}
