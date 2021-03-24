@@ -48,13 +48,6 @@ const IndexPage = ({ data }) => (
           <Testimonial key="Testimonial" data={data.allContentfulTestimonials}></Testimonial>
         );
       })}
-/*
-    {data.contentfulSiteInformation.menus
-      .filter(item => item === "Contact")
-      .map(t => {
-        return <Contact key="Contact" data={data.contentfulAboutMe.gmail}></Contact>;
-      })}
-*/
   </Layout>
 );
 
