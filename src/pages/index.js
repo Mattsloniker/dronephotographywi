@@ -35,6 +35,9 @@ const IndexPage = ({ data }) => (
         return <Service key="Service" data={data.allContentfulService}></Service>;
       })}
 
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-78dc7f60-06bf-4808-8bac-e470db8171ac"></div>
+
    {data.contentfulSiteInformation.menus
       .filter(item => item === "YouTube")
       .map(t => {
