@@ -14,6 +14,8 @@ import Contact from "../components/contact";
 import Photos from "../components/photos";
 import YouTube from "../components/youtube";
 
+import Pricing from "../components/pricing";
+
 const IndexPage = ({ data }) => (
   <Layout header="home">
   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
@@ -33,6 +35,12 @@ const IndexPage = ({ data }) => (
       .filter(item => item === "Service")
       .map(t => {
         return <Service key="Service" data={data.allContentfulService}></Service>;
+      })}
+
+    {data.contentfulSiteInformation.menus
+      .filter(item => item === "Pricing")
+      .map(t => {
+        return <Pricing key="Pricing" data={data.allContentfulService}></Pricing>;
       })}
 
    {data.contentfulSiteInformation.menus
