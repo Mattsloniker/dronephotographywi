@@ -25,6 +25,7 @@ export default class service extends Component {
                 </div>
               );
             })}
+          <iframe src="https://apps.elfsight.com/widget/78dc7f60-06bf-4808-8bac-e470db8171ac" frameborder="0" width="100%"></iframe>
           </div>
         </div>
       </div>
