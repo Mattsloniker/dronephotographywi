@@ -25,7 +25,6 @@ export default class service extends Component {
                 </div>
               );
             })}
-           <div class="elfsight-app-78dc7f60-06bf-4808-8bac-e470db8171ac"></div>
           </div>
         </div>
       </div>
