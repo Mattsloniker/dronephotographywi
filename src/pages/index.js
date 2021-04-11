@@ -37,11 +37,7 @@ const IndexPage = ({ data }) => (
         return <Service key="Service" data={data.allContentfulService}></Service>;
       })}
 
-    {data.contentfulSiteInformation.menus
-      .filter(item => item === "Pricing")
-      .map(t => {
-        return <Pricing key="Pricing" data={data.allContentfulService}></Pricing>;
-      })}
+  <Pricing />
 
    {data.contentfulSiteInformation.menus
       .filter(item => item === "YouTube")
