@@ -16,7 +16,7 @@ import YouTube from "../components/youtube";
 
 const IndexPage = ({ data }) => (
   <Layout header="home">
-  
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <SEO
       title={data.contentfulAboutMe.designation}
       keywords={[`Matt Sloniker`, `Photographer`, `Drone Photographer`, `Madison` , 'Arieal Drone Photographer']}
