@@ -51,6 +51,3 @@ import React from "react";
     </ul>
 </div>  
 </body>
-)
-}
-}
