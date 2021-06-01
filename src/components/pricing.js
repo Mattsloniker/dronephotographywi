@@ -3,6 +3,9 @@ import React, { Component } from "react";
 export default class Pricing extends Component {
   render() {
     return (
+<html>
+<head>
+<style>
 <body>
 <div class="column" id="Pricing">
   <ul class="price">
@@ -54,6 +57,9 @@ export default class Pricing extends Component {
     </ul>
 </div>  
 </body>
+</style>
+</head>
+</html>
 )
 }
 }
