@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
 
 export default class Pricing extends Component {
-render() {
-  const { data } = this.props;
-  return  (
+  render() {
+    const { data } = this.props;
+    return (
 <body>
-<div class="column">
+<div class="column" id="Pricing">
   <ul class="price">
     <li class="header">Silver Package</li> 
     	<ul class="feature">
@@ -22,7 +22,7 @@ render() {
             </ul>
   </ul>
 </div>
-<div class="column1"><div class="ribbon ribbon-top-right"><span>POPULAR</span></div>
+<div class="column1" id="Pricing"><div class="ribbon ribbon-top-right"><span>POPULAR</span></div>
 	<ul class="price">
 		<li class="header">Gold Package</li>
 			<ul class="feature1">
@@ -38,7 +38,7 @@ render() {
             			</ul>   
 	</ul>
 </div>
-<div class="column2">
+<div class="column2" id="Pricing">
 	<ul class="price">
 		<li class="header">Diamond Package</li>
 			<ul class="feature2">
