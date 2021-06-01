@@ -1,3 +1,4 @@
+import React from "react";
 <body>
 <div class="column">
   <ul class="price">
