@@ -5,6 +5,8 @@ export default class Pricing extends Component {
     return (
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="..\css\pricing.css"></script>
 <style>
 <body>
 <div class="column" id="Pricing">
@@ -58,6 +60,7 @@ export default class Pricing extends Component {
 </div>  
 </body>
 </style>
+</meta>
 </head>
 </html>
 )
