@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 export default class Pricing extends Component {
   render() {
-    const { data } = this.props;
     return (
 <body>
 <div class="column" id="Pricing">
