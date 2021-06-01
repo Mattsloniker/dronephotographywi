@@ -1,5 +1,10 @@
 import React from "react";
-
+class Example extends React.Component {
+render() {
+  return  <PricingTable  highlightColor='#f44336'> ... </PricingTable>
+}
+}
+<PricingTable  highlightColor='#1976D2'>
 <body>
 <div class="column">
   <ul class="price">
@@ -51,3 +56,4 @@ import React from "react";
     </ul>
 </div>  
 </body>
+</PricingTable>
