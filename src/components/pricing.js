@@ -1,4 +1,5 @@
 import React from "react";
+import {column, column1, column2} from 'react-pricing';
 class Example extends React.Component {
 render() {
   return  <body> ... </body>
