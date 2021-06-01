@@ -1,9 +1,9 @@
 import React from "react";
-class Example extends React.Component {
+
+class Pricing extends Component {
 render() {
-  return  <body> ... </body>
-}
-}
+  const { data } = this.props;
+  return  (
 <body>
 <div class="column">
   <ul class="price">
@@ -55,3 +55,6 @@ render() {
     </ul>
 </div>  
 </body>
+)
+}
+}
