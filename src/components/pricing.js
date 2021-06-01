@@ -1,4 +1,8 @@
 import React from "react";
+
+export default class Pricing extends Component {
+  render() {
+    return (
 <body>
 <div class="column">
   <ul class="price">
@@ -50,3 +54,6 @@ import React from "react";
     </ul>
 </div>  
 </body>
+)
+}
+}
