@@ -1,6 +1,6 @@
 import React from "react";
 
-class Pricing extends Component {
+export default class Pricing extends Component {
 render() {
   const { data } = this.props;
   return  (
