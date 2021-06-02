@@ -11,6 +11,7 @@ export default class Header extends Component {
 
   render() {
     const { data, header } = this.props;
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     const { menu } = this.state;
     return (
       <header className={`site-header ${menu ? "active" : ""}`}>
@@ -19,7 +20,7 @@ export default class Header extends Component {
             <div className="logo">
               <Link to="/">
                 {data.logo.file.url ? (
-                  <img src={data.logo.file.url} alt="logo"  width= "25%" height= "25%"/>
+                  <img src={data.logo.file.url} alt="logo"  width= "100%" height= "100%"/>
                 ) : (
                   <span>{data.siteName}</span>
                 )}
