@@ -9,7 +9,7 @@ export default class service extends Component {
         <div className="see-more">
           <div className="section-head">
             <h2>Drone Photography Wisconsin</h2>
-            <script src="https://apps.elfsight.com/widget/78dc7f60-06bf-4808-8bac-e470db8171ac" frameborder="0" height="800px" width="100%"></script>
+            <iframe src="https://apps.elfsight.com/widget/78dc7f60-06bf-4808-8bac-e470db8171ac" frameborder="0" height="1200px" width="100%"></iframe>
           </div>
           <div className="row">
             {data.edges.map((item, index) => {
