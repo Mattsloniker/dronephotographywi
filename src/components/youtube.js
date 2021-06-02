@@ -8,7 +8,6 @@ export default class YouTube extends Component {
           <div className="section-head">
             <h2 className="text-center"></h2>
           </div>
-         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
          <div class="elfsight-app-4e26020a-265c-4a56-a30b-c1fa72928406"></div>
         </div>
       </div>
