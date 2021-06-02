@@ -91,7 +91,6 @@ export default class Banner extends Component {
             </ul>
           </div>
         </div>
-<div class="elfsight-app-066b1035-dc68-422f-9df4-6832cff3cd76"></div>
       </div>
     );
   }
