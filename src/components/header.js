@@ -48,21 +48,6 @@ export default class Header extends Component {
                   <li key="home">
                     <Link to="/#home">Home</Link>
                   </li>
-                   <li key="About Us">
-                          <Link to="/about-us">About Us</Link>
-                    </li>
-                  {data.menus
-                    .filter(item => item === "Service")
-                    .map(t => {
-                      return (
-                        <li key="Service">
-                          <Link to={`/#Service`}>FAQs</Link>
-                        </li>
-                      );
-                    })}
-                        <li>
-                          <a href="https://dronephotographywi.blog">Blogs</a>
-                        </li>                  
                   {data.menus
                     .filter(item => item === "Work")
                     .map(t => {
@@ -72,6 +57,21 @@ export default class Header extends Component {
                         </li>
                       );
                     })}
+                   <li key="About Us">
+                          <Link to="/about-us">About Us</Link>
+                    </li>
+                  {data.menus
+                    .filter(item => item === "Service")
+                    .map(t => {
+                      return (
+                        <li key="Service">
+                          <Link to={`/#Service`}>Pricing</Link>
+                        </li>
+                      );
+                    })}
+                        <li>
+                          <a href="https://dronephotographywi.blog">Blogs</a>
+                        </li>                  
                   {data.menus
                     .filter(item => item === "Testimonials")
                     .map(t => {
