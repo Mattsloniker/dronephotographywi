@@ -5725,7 +5725,6 @@ readers do not read off random characters that represent icons */
   font-display: swap;
   src: url("webfonts/fa-brands-400.eot");
   src: url("webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"),
-    url("webfonts/fa-brands-400.ttf") format("truetype"),
     url("webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
 
