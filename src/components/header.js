@@ -53,7 +53,7 @@ export default class Header extends Component {
                     .map(t => {
                       return (
                         <li key="Work">
-                          <Link to={`/#Work`}>Commercial Real Estate</Link>
+                          <Link to={`/#Work`}>Potfolio</Link>
                         </li>
                       );
                     })}
