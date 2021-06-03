@@ -222,6 +222,8 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
     .about-main .left .gatsby-image-wrapper{height:400px}
 }
 
+.full-footer
+{background-color: black;}
 .site-footer
 {
   background-color:#26272b;
@@ -400,7 +402,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 {
   .social-icons li.title
   {
-    background-color:rgb(173, 24, 24);
+    background-color:black;
     display:block;
     margin-right:0;
     font-weight:600
