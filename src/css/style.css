@@ -239,7 +239,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 .site-footer h2
 {
   color:#fff;
-  font-size:16px;
+  font-size:20px;
   text-transform:uppercase;
   margin-top:5px;
   letter-spacing:2px
@@ -256,6 +256,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 .footer-links h3
 {
   color:#ffffff
+  font-size:16px;
 }
 .footer-links h3 a:hover
 {
