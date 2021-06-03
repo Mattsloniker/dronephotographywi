@@ -8,7 +8,7 @@ const { spaceId, accessToken } = process.env;
 
 module.exports = {
   siteMetadata: {
-    title: `Rohit Gupta`,
+    title: `Matt Sloniker`,
     description: `Personal Site`,
     author: `@rohitguptab`
   },
@@ -34,8 +34,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rohit Gupta`,
-        short_name: `Rohit Gupta`,
+        name: `Matt Sloniker`,
+        short_name: `Matt Sloniker`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#333`,
