@@ -41,13 +41,15 @@ export default class Photos extends Component {
             <h2>Photos</h2>
           </div>
           <div className="slider-section photos-list">
+            <Slider {...settings}></Slider>
+            </div>
+          <div className="slider-section photos-list">
             <Slider {...settings}>
               {data.photos.slice(0, 9).map((item, index) => {
                 return (
                   <div key={index} className="photos-item">
                     <Img
                       fluid={item.fluid}
-                      objectFit="cover"
                       objectPosition="50% 50%"
                     />
                   </div>
