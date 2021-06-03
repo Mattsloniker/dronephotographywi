@@ -314,7 +314,8 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   }
   .site-footer .copyright-text,.site-footer .social-icons
   {
-    text-align:center
+    background:#010101;
+    text-align:center;
   }
 }
 .social-icons
@@ -391,6 +392,10 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 .social-icons a.pinterest:hover
 {
   background-color:#bd081c
+}
+.social-icons a.tiktok:hover
+{
+  background-color:#010101
 }
 @media (max-width:767px)
 {
