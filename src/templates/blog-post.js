@@ -11,6 +11,11 @@ import Share from "../components/share";
 export default class blogPost extends Component {
   render() {
     const data = this.props.data.contentfulBlogs;
+    const disqusShortname = "RohitGupta";
+    const disqusConfig = {
+      identifier: data.id,
+      title: data.title
+    };
 
     const siteurl = this.props.data.contentfulSiteInformation.siteUrl + "/";
     const twiteerhandle = this.props.data.contentfulSiteInformation
