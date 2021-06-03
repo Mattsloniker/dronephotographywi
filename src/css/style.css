@@ -168,7 +168,7 @@ pre{margin-bottom:0}
 }
 .blog-post .details .title{font-size:26px;margin-bottom:20px}
 .blog-post .details .date{font-size:14px;margin-bottom:30px}
-.blog-post .details h2{font-size:22px;line-height:26px;margin-bottom:20px}
+.blog-post .details h2{font-size:22px;line-height:26px;margin-bottom:20px;display:inline-block;position:relative}
 .blog-post .details h3{font-size:18px}
 .blog-post .details h4{font-size:16px}
 .blog-post .details ul li{font-size:14px}
