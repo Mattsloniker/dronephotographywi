@@ -14,8 +14,8 @@ import Contact from "../components/contact";
 const IndexPage = ({ data }) => (
   <Layout header="home">
     <SEO
-      title={data.contentfulAboutMe.designation}
-      keywords={[`Matt Sloniker`, `Photographer`, `Drone Photographer`, `Madison` , 'Arieal Drone Photographer']}
+      title={data.contentfulAboutMe.name|data.contentfulAboutMe.designation}
+      keywords={[`Photography`, `Commercial Photography`, `Photographer`, `Drone Photographer`, `Wisconsin` , 'Arieal Drone Photographer']}
     />
     <Banner data={data.contentfulAboutMe}></Banner>
   
