@@ -634,23 +634,6 @@
           ],
           "disabled": false,
           "omitted": false
-        },
-        {
-          "id": "photos",
-          "name": "Photos",
-          "type": "Array",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false,
-          "items": {
-            "type": "Link",
-            "validations": [
-            ],
-            "linkType": "Asset"
-          }
         }
       ]
     },
