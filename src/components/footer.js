@@ -18,10 +18,10 @@ export default class footer extends Component {
           <div class="col-xs-6 col-md-3">
             <h6>Categories</h6>
             <ul class="footer-links">
-              <li><a href="https://dronephotographywi.com">Home</a></li>
-              <li><a href="https://dronephotographywi.com/about-us">About Us</a></li>
-              <li><a href="https://dronephotographywi.com/#Service">Pricing</a></li>
-              <li><a href="https://dronephotographywi.blog/">Blogs</a></li>
+              <li><a href="https://dronephotographywi.com">Top</a></li>
+              <li><a href="https://dronephotographywi.com/about-us">About</a></li>
+              <li><a href="https://dronephotographywi.com/#Service">Pricing Table</a></li>
+              <li><a href="https://dronephotographywi.blog/">Blog</a></li>
               <li><a href="https://dronephotographywi.com/#Testimonials">Reviews</a></li>
             </ul>
           </div>
