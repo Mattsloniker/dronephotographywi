@@ -332,13 +332,13 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 {
   margin-right:15px;
   text-transform:uppercase;
-  color:#96a2b2;
+  color:#ffffff;
   font-weight:700;
   font-size:13px
 }
 .social-icons a{
-  background-color:#eceeef;
-  color:#818a91;
+  background-color:#000000;
+  color:#ffffff;
   font-size:16px;
   display:inline-block;
   line-height:44px;
@@ -346,14 +346,14 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   height:44px;
   text-align:center;
   margin-right:8px;
-  border-radius:100%;
+  border-radius:12px;
   -webkit-transition:all .2s linear;
   -o-transition:all .2s linear;
   transition:all .2s linear
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
-  color:#fff;
+  color:rgb(255, 255, 255);
   background-color:#29aafe
 }
 .social-icons.size-sm a
