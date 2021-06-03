@@ -8,21 +8,21 @@ export default class footer extends Component {
         <div className="container">
         <div class="row">
           <div class="col-sm-12 col-md-6">
-            <h6>Contact</h6>
+            <h1>Contact</h1>
             <ul class="footer-links">
-            <li><a href="https://g.page/HHPhotographyWI?share">1131 Prairie Ave, Beloit, WI 53511</a></li>
-            <li><a href="mailto:HHPhotography@dronephotographywi.com">HHPhotography@dronephotographywi.com</a></li>
-            <li><a href="tel:608-313-4495">(608) 313-4495</a></li>
+            <li><a href="https://g.page/HHPhotographyWI?share"><h2>1131 Prairie Ave, Beloit, WI 53511</h2></a></li>
+            <li><a href="mailto:HHPhotography@dronephotographywi.com"><h2>HHPhotography@dronephotographywi.com</h2></a></li>
+            <li><a href="tel:608-313-4495"><h2>(608) 313-4495</h2></a></li>
             </ul>
           </div>
           <div class="col-xs-6 col-md-3">
-            <h6>Categories</h6>
+            <h1>Categories</h1>
             <ul class="footer-links">
-              <li><a href="https://dronephotographywi.com">Top</a></li>
-              <li><a href="https://dronephotographywi.com/about-us">About</a></li>
-              <li><a href="https://dronephotographywi.com/#Service">Pricing Table</a></li>
-              <li><a href="https://dronephotographywi.blog/">Blog</a></li>
-              <li><a href="https://dronephotographywi.com/#Testimonials">Reviews</a></li>
+              <li><a href="https://dronephotographywi.com"><h2>Top</h2></a></li>
+              <li><a href="https://dronephotographywi.com/about-us"><h2>About</h2></a></li>
+              <li><a href="https://dronephotographywi.com/#Service"><h2>Pricing Table</h2></a></li>
+              <li><a href="https://dronephotographywi.blog/"><h2>Blog</h2></a></li>
+              <li><a href="https://dronephotographywi.com/#Testimonials"><h2>Reviews</h2></a></li>
             </ul>
           </div>
           </div>
