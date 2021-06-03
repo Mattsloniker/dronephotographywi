@@ -308,8 +308,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 }
 .social-icons li
 {
-  display:flex;
-  flex-direction: row;
+  display:inline-block;
   margin-bottom:10px;
   margin-left:1%;
   margin-right:1%;
