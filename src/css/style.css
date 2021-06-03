@@ -223,7 +223,10 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 }
 
 .full-footer
-{background-color: black;}
+{
+    background-color: #26272b;
+}
+
 .site-footer
 {
   background-color:#26272b;
@@ -251,7 +254,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 }
 .site-footer a
 {
-  color:#fff;
+  color:rgb(255, 255, 255);
 }
 .site-footer a:hover
 {
@@ -283,7 +286,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 .site-footer .social-icons
 {
   text-align:right;
-  background-color:#26272b;
+  background-color:#ffffff;
 }
 .site-footer .social-icons a
 {
@@ -298,7 +301,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 .copyright-text
 {
   margin:0;
-  color:black;
+  color:rgb(255, 255, 255);
  
 }
 @media (max-width:991px)
@@ -402,7 +405,6 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 {
   .social-icons li.title
   {
-    background-color:black;
     display:block;
     margin-right:0;
     font-weight:600
