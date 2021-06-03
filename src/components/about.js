@@ -45,7 +45,7 @@ const Header = ({ data }) => (
               <li>
                 <strong>Phone</strong>
                 <p>
-                (608) 473-5120
+                (608) 313-4495
                 </p>
               </li>
             </ul>
