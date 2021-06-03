@@ -9,10 +9,11 @@ export default class footer extends Component {
         <div class="row">
           <div class="col-sm-12 col-md-6">
             <h6>HOURS AND INFO</h6>
-            <ul class="footer-links"></ul>
+            <ul class="footer-links">
             <li><a href="https://g.page/HHPhotographyWI?share">1131 Prairie Ave, Beloit, WI 53511</a></li>
             <li><a href="mailto:HHPhotography@dronephotographywi.com">HHPhotography@dronephotographywi.com</a></li>
             <li><a href="tel:608-313-4495">(608) 313-4495</a></li>
+            </ul>
           </div>
           <div class="col-xs-6 col-md-3">
             <h6>Categories</h6>
