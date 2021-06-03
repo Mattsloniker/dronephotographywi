@@ -170,19 +170,6 @@ export const pageQuery = graphql`
         }
       }
     }
-    contentfulPhotos {
-      photos {
-        fluid(maxWidth: 600) {
-          base64
-          aspectRatio
-          src
-          srcSet
-          srcWebp
-          srcSetWebp
-          sizes
-        }
-      }
-    }
     contentfulSiteInformation {
       menus
     }
