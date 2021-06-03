@@ -28,16 +28,7 @@ export default class footer extends Component {
           </div>
             </div>
           </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
-         <a href="https://dronephotographywi.com/"> HHPhotography</a>.
-            </p>
-          </div>
-          <hr>
-      </hr>
-      <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
               <li><a class="facebook" href="https://www.facebook.com/HHPhotographyWI/"><i class="fab fa-facebook-f"></i></a></li>
               <li><a class="youtube" href="https://www.youtube.com/channel/UCovZdjo6ztPtuBXGaIqTxdg"><i class="fab fa-youtube"></i></a></li>
@@ -49,7 +40,16 @@ export default class footer extends Component {
              <li><a class="pinterest" href="https://www.pinterest.com/hhphotographywi/"><i class="fab fa-pinterest-p"></i></a></li>
             </ul>
           </div>
+          <hr>
+      </hr>
+          <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+         <a href="https://dronephotographywi.com/"> HHPhotography</a>.
+            </p>
           </div>
+      </div>
       </div>
       </div>
     )
