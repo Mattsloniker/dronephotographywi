@@ -258,7 +258,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   color:#ffffff
   font-size:16px;
 }
-.footer-links h3 a:hover
+.footer-links h3:hover
 {
   color:#0f94c9;
   text-decoration:none;
