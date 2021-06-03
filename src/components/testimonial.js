@@ -18,8 +18,8 @@ export default class Testimonial extends Component {
       <div className="slider-section section testimonials" id="Testimonials">
         <div className="container">
           <div className="section-head text-center">
-            <h2>Reviews</h2>
-            <p>People I've worked with have said...</p>
+            <h3>Reviews</h3>
+            <h4>People I've worked with have said...</h4>
           </div>
           <Slider {...settings}>
             {data.edges.map((item, index) => {
@@ -37,7 +37,7 @@ export default class Testimonial extends Component {
                         __html: item.node.description.childMarkdownRemark.html
                       }}
                     />
-                    <h3 className="name">{item.node.name}</h3>
+                    <h5 className="name">{item.node.name}</h5>
                     <span className="sub-name">{item.node.subTitle}</span>
                   </div>
                 </div>
