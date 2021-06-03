@@ -22,7 +22,7 @@ body{margin:0;background:#fff}
 .banner .banner-details .sub-data li:after{content:"";width:6px;height:6px;display:inline-block;background:#fff;position:absolute;top:50%;margin-top:-3px;right:-3px; border-radius: 50%;}
 .banner .banner-details .sub-data li:last-child:after{display:none}
 .banner .banner-details .social{display:flex;margin:0;padding:0;list-style:none}
-.banner .banner-details .social li{margin:0 0}
+.banner .banner-details .social li{margin:10px 10px}
 .banner .banner-details .social li a{text-decoration:none;width:40px;height:40px;display:flex;justify-content:center;align-items:center;border:2px solid #fff; border-radius: 15px;;color:#fff;position:relative;overflow:hidden}
 .banner .banner-details .social li a:after{content:"";background:#0f94c9;position:absolute;top:-100%;left:0;-webkit-transition:0.3s all;transition:0.3s all;height:100%;width:100%; border-radius: 15px;}
 .banner .banner-details .social li a:before{position:relative;z-index:1}
