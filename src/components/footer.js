@@ -33,7 +33,7 @@ export default class footer extends Component {
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
-         <a href="https://dronephotographywi.com/">HHPhotography</a>.
+         <a href="https://dronephotographywi.com/"> HHPhotography</a>.
             </p>
           </div>
         </div>
