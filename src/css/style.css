@@ -319,7 +319,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 }
 .social-icons
 {
-  color:#ff0000;
+  color:#ffffff;
   padding-left:0;
   margin-bottom:0;
   list-style:none
@@ -333,13 +333,13 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 {
   margin-right:15px;
   text-transform:uppercase;
-  color:#00ff0d;
+  color:#ffffff;
   font-weight:700;
   font-size:13px
 }
 .social-icons a{
-  background-color:#fbff00;
-  color:#9900ff;
+  background-color:#ffffff;
+  color:rgb(57, 58, 58);
   font-size:16px;
   display:inline-block;
   line-height:44px;
@@ -354,7 +354,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
-  color:rgb(0, 81, 255);
+  color:rgb(57, 58, 58);
   background-color:#29aafe
 }
 .social-icons.size-sm a
