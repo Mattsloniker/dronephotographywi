@@ -38,7 +38,7 @@ export default class Testimonial extends Component {
                       }}
                     />
                     <h5 className="name">{item.node.name}</h5>
-                    <h6 className="sub-name">{item.node.subTitle}</h6>
+                    <span className="sub-name">{item.node.subTitle}</span>
                   </div>
                 </div>
               );
