@@ -62,7 +62,6 @@ body{margin:0;background:#fff}
 .slick-dots li.slick-active button{background:#0f94c9}
 .testi-inner{display:block!important;width:700px!important;margin:0 auto;padding-bottom:60px;max-width:100%}
 .testi-inner .avatar{display:block;margin:0 auto;margin-bottom:15px;width:100px;height:100px;object-fit:cover;border-radius:100%}
-.testi-inner p{}
 .testi-inner .name{margin:0}
 .testimonials{overflow:hidden}
 .testi-inner .sub-name{font-size:14px}
@@ -149,7 +148,7 @@ pre{margin-bottom:0}
 .photos-list{margin-bottom:20px}
 .photos-list .slick-dots{bottom:-20px;margin:0}
 .responsive-menu{width:30px;height:25px;display:none;justify-content:center;align-items:center}
-.responsive-menu span{background:#fff;display:block;height:2px;position:relative;transition:background .2s ease-out;width:18px}
+.responsive-menu span{background:#fff;display:block;height:2px;position:relative;transition: .2s ease-out;width:18px}
 .responsive-menu span:after{top:-5px}
 .responsive-menu span:before{top:5px}
 .responsive-menu span:before,
