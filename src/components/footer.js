@@ -8,7 +8,7 @@ export default class footer extends Component {
         <div className="container">
         <div class="row">
           <div class="col-sm-12 col-md-6">
-            <h6>HOURS AND INFO</h6>
+            <h6>Contact</h6>
             <ul class="footer-links">
             <li><a href="https://g.page/HHPhotographyWI?share">1131 Prairie Ave, Beloit, WI 53511</a></li>
             <li><a href="mailto:HHPhotography@dronephotographywi.com">HHPhotography@dronephotographywi.com</a></li>
@@ -18,7 +18,7 @@ export default class footer extends Component {
           <div class="col-xs-6 col-md-3">
             <h6>Categories</h6>
             <ul class="footer-links">
-              <li><a href="https://dronephotographywi.com">TOP</a></li>
+              <li><a href="https://dronephotographywi.com">Home</a></li>
               <li><a href="https://dronephotographywi.com/about-us">About Us</a></li>
               <li><a href="https://dronephotographywi.com/#Service">Pricing</a></li>
               <li><a href="https://dronephotographywi.blog/">Blogs</a></li>
