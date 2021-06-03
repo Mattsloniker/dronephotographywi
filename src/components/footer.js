@@ -9,14 +9,11 @@ export default class footer extends Component {
         <div class="row">
           <div class="col-sm-12 col-md-6">
             <h6>HOURS AND INFO</h6>
-            <ul class="text-justify"></ul>
-            <p class="text-justify">1131 Prairie Ave</p>
-<p class="text-justify">
-Beloit, WI 53511</p>
-<li><a href="HHPhotography@dronephotographywi.com">HHPhotography@dronephotographywi.com</a></li>
-<li><a href="tel:608-313-4495">(608)313-4495</a></li>
-<p class="text-justify">
-Open 24/7</p>
+            <ul class="footer-links"></ul>
+            <li><a href="https://g.page/HHPhotographyWI?share">1131 Prairie Ave, Beloit, WI 53511</a></li>
+            <li><a href="HHPhotography@dronephotographywi.com">HHPhotography@dronephotographywi.com</a></li>
+            <li><a href="tel:608-313-4495">(608)313-4495</a></li>
+            <p class="text-justify">Open 24/7</p>
           </div>
           <div class="col-xs-6 col-md-3">
             <h6>Categories</h6>
