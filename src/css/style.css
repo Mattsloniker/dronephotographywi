@@ -303,6 +303,8 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   margin:0;
   color:rgb(255, 255, 255);
   text-align:center;
+  margin: auto;
+  width: 100%;
  
 }
 @media (max-width:991px)
@@ -330,7 +332,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   margin-bottom:0;
   list-style:none;
   margin: auto;
-  width: 100vw;
+  width: 100%;
 }
 .social-icons li
 {
