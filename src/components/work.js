@@ -8,7 +8,7 @@ export default class work extends Component {
       <div className="work section" id="Work">
         <div className="container">
            <div className="section-head text-center">
-            <h2>Commercial Real Estate</h2>
+            <h2>Portfolio</h2>
           </div>
           <ul className="work-list">
             {data.edges.map((item, index) => {
