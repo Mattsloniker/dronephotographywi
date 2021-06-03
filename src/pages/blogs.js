@@ -23,7 +23,7 @@ export default class Blogs extends Component {
             </div>
             <ul
               className={`blogs-list ${
-                data.allContentfulBlogs.edges.length < 0 ? "few-blogs" : ""
+                data.allContentfulBlogs.edges.length < 5 ? "few-blogs" : ""
               }`}
             >
               {data.allContentfulBlogs.edges.map((item, index) => {
@@ -43,7 +43,6 @@ export default class Blogs extends Component {
                       <div className="details">
                         <h3 className="title">{item.node.title}</h3>
                         <span className="date">
-                          <i className="fas fa-calendar-alt"></i>{" "}
                           {moment(item.node.createdAt).format("LL")}
                         </span>
                       </div>
