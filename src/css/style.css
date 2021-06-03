@@ -307,8 +307,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   background-color:#26272b;
   color:rgb(255, 255, 255);
   font-size:30px;
-  display:flex;
-  flex-direction: row;
+  display:inline-block;
   line-height:70px;
   width:70px;
   height:70px;
@@ -317,7 +316,6 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   -webkit-transition:all .2s linear;
   -o-transition:all .2s linear;
   transition:all .2s linear;
-  justify-content: center;
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
