@@ -5,16 +5,11 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 import Banner from "../components/banner";
-import About from "../components/about";
 import Service from "../components/service";
 import Work from "../components/work";
-import Blogs from "../components/blogs";
 import Testimonial from "../components/testimonial";
 import Contact from "../components/contact";
-import Photos from "../components/photos";
-import YouTube from "../components/youtube";
 
-import Pricing from "../components/pricing";
 
 const IndexPage = ({ data }) => (
   <Layout header="home">
