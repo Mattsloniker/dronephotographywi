@@ -236,7 +236,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   color:#26272b;
 }
 
-.site-footer h2
+.site-footer h1
 {
   color:#fff;
   font-size:16px;
@@ -254,6 +254,10 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   display:block
 }
 .footer-links a
+{
+  color:#ffffff
+}
+.footer-links h2
 {
   color:#ffffff
 }
