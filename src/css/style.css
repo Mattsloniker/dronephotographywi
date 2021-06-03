@@ -281,7 +281,6 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 {
   color:rgb(255, 255, 255);
   text-align:center;
- 
 }
 @media (max-width:991px)
 {
@@ -309,7 +308,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 }
 .social-icons li
 {
-  display:flex;
+  display:inline-block;
   margin-bottom:4px;
   margin: auto;
 }
