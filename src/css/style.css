@@ -228,7 +228,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color:#737373;
+  color:#26272b;
 }
 .site-footer hr
 {
@@ -249,7 +249,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 }
 .site-footer a
 {
-  color:#737373;
+  color:#fff;
 }
 .site-footer a:hover
 {
@@ -267,11 +267,11 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 }
 .footer-links a
 {
-  color:#737373
+  color:#ffffff
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
-  color:#3366cc;
+  color:#0f94c9;
   text-decoration:none;
 }
 .footer-links.inline li
@@ -294,7 +294,8 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 }
 .copyright-text
 {
-  margin:0
+  margin:0;
+  color:white;
 }
 @media (max-width:991px)
 {
