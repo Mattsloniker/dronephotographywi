@@ -19,7 +19,7 @@ body{margin:0;background:#fff}
 .banner:after{content:"";background:rgba(0,0,0,0.55);position:absolute;left:0;right:0;top:0;bottom:0}
 .banner .banner-details .sub-data{padding:0;display:flex;list-style:none;margin:0 0 30px 0}
 .banner .banner-details .sub-data li{padding:0 20px;position:relative;text-align:center; font-size:18px;text-shadow:1px 1px 4px #333}
-.banner .banner-details .sub-data li:after{content:"";width:7px;height:7px;display:inline-block;background:rgb(255, 255, 255);position:absolute;top:50%;margin-top:-3px;right:-3px; border-radius: 50%;}
+.banner .banner-details .sub-data li:after{content:"";width:6px;height:6px;display:inline-block;background:rgb(255, 255, 255);position:absolute;top:50%;margin-top:-3px;right:-3px; border-radius: 50%;}
 .banner .banner-details .sub-data li:last-child:after{display:none}
 .banner .banner-details .social{display:flex;margin:0;padding:0;list-style:none}
 .banner .banner-details .social li{margin:10px 10px}
@@ -64,7 +64,7 @@ body{margin:0;background:#fff}
 .testi-inner .avatar{display:block;margin:0 auto;margin-bottom:15px;width:100px;height:100px;object-fit:cover;border-radius:100%}
 .testi-inner .name{margin:0}
 .testimonials{overflow:hidden}
-.testi-inner .sub-name{font-size:14px}
+.testi-inner .sub-name{font-size:14px; text-align:center}
 .testimonials{text-align:center}
 form label{width:100%}
 form input,
