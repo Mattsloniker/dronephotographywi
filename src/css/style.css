@@ -343,16 +343,16 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   font-size:13px
 }
 .social-icons a{
-  background-color:#ffffff;
-  color:rgb(57, 58, 58);
+  background-color:#26272b;
+  color:rgb(255, 255, 255);
   font-size:16px;
   display:inline-block;
-  line-height:44px;
-  width:40px;
-  height:40px;
+  line-height:41px;
+  width:41px;
+  height:41px;
   text-align:center;
   margin-right:8px;
-  border-radius:14px;
+  border-radius:16px;
   -webkit-transition:all .2s linear;
   -o-transition:all .2s linear;
   transition:all .2s linear
