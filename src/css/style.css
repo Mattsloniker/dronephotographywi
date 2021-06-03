@@ -232,12 +232,11 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 }
 .site-footer hr
 {
-  border-top-color:rgb(0, 0, 0);
+  border-top-color:#bbb;
   opacity:0.5
 }
 .site-footer hr.small
 {
-  background-color:black;
   margin:20px 0
 }
 .site-footer h6
@@ -274,7 +273,6 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 {
   color:#0f94c9;
   text-decoration:none;
-  background-color:black;
 }
 .footer-links.inline li
 {
@@ -316,7 +314,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   }
   .site-footer .copyright-text,.site-footer .social-icons
   {
-    text-align:center;
+    text-align:center
   }
 }
 .social-icons
@@ -396,12 +394,13 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 }
 .social-icons a.tiktok:hover
 {
-  background-color:#010101
+  background-color:black;
 }
 @media (max-width:767px)
 {
   .social-icons li.title
   {
+    background-color:rgb(173, 24, 24);
     display:block;
     margin-right:0;
     font-weight:600
