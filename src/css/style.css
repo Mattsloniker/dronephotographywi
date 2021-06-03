@@ -23,7 +23,7 @@ body{margin:0;background:#fff}
 .banner .banner-details .sub-data li:last-child:after{display:none}
 .banner .banner-details .social{display:flex;margin:0;padding:0;list-style:none}
 .banner .banner-details .social li{margin:0 10px}
-.banner .banner-details .social li a{text-decoration:none;width:40px;height:40px;display:flex;justify-content:center;align-items:center;border:2px solid #fff;color:#fff;position:relative;overflow:hidden}
+.banner .banner-details .social li a{text-decoration:none;width:40px;height:40px;display:flex;justify-content:center;align-items:center;border:2px solid #fff; border-radius: 12px;;color:#fff;position:relative;overflow:hidden}
 .banner .banner-details .social li a:after{content:"";background:#0f94c9;position:absolute;top:-100%;left:0;-webkit-transition:0.3s all;transition:0.3s all;height:100%;width:100%; border-radius: 12px;}
 .banner .banner-details .social li a:before{position:relative;z-index:1}
 .banner .banner-details .social li a:hover:after{top:0}
@@ -32,7 +32,7 @@ body{margin:0;background:#fff}
 .site-header .header-main .menu{width:90%;display:flex;align-items:center;justify-content:flex-end}
 .site-header .header-main .menu ul{padding:0;display:flex;margin:0;justify-content:flex-end;list-style:none}
 .site-header .header-main .menu ul li{margin:0 10px}
-.site-header .header-main .menu ul li a{position:relative;color:rgb(247, 0, 0);overflow:hidden;text-decoration:none}
+.site-header .header-main .menu ul li a{position:relative;color:rgb(253, 253, 253);overflow:hidden;text-decoration:none}
 .site-header .header-main .menu ul li a:after{content:"";width:0;height:1px;position:absolute;bottom:-3px;left:0;background:#fff;transition:0.5s all}
 .site-header .header-main .menu ul li a:hover:after{width:100%;transition:0.5s all}
 .section{padding:50px 0}
