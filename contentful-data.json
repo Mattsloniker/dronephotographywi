@@ -593,6 +593,17 @@
             "id": "4bwt4pzmqo4p"
           }
         },
+        "id": "photos",
+        "type": "ContentType",
+        "createdAt": "2020-02-18T11:51:20.269Z",
+        "updatedAt": "2020-02-18T11:58:36.276Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
         "publishedVersion": 11,
         "publishedAt": "2020-02-18T11:58:36.276Z",
         "firstPublishedAt": "2020-02-18T11:51:22.126Z",
@@ -634,6 +645,23 @@
           ],
           "disabled": false,
           "omitted": false
+        },
+        {
+          "id": "photos",
+          "name": "Photos",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Link",
+            "validations": [
+            ],
+            "linkType": "Asset"
+          }
         }
       ]
     },
