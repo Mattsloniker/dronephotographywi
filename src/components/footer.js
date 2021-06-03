@@ -8,10 +8,13 @@ export default class footer extends Component {
         <div className="container">
         <div class="row">
           <div class="col-sm-12 col-md-6">
-            <h6>About</h6>
+            <h6>HOURS AND INFO</h6>
+            <ul class="text-justify"></ul>
             <p class="text-justify">1131 Prairie Ave</p>
 <p class="text-justify">
 Beloit, WI 53511</p>
+<p class="text-justify">
+HHPhotography@dronephotographywi.com</p>
 <p class="text-justify">
 (608) 313-4495</p>
 <p class="text-justify">
