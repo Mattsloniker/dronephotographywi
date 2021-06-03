@@ -40,8 +40,6 @@ export default class footer extends Component {
              <li><a class="pinterest" href="https://www.pinterest.com/hhphotographywi/"><i class="fab fa-pinterest-p"></i></a></li>
             </ul>
           </div>
-          <hr>
-      </hr>
           <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
