@@ -375,9 +375,21 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 {
   background-color:#007bb6
 }
-.social-icons a.dribbble:hover
+.social-icons a.instagram:hover
 {
   background-color:#ea4c89
+}
+.social-icons a.snapchat:hover
+{
+  background-color:#fffc00
+}
+.social-icons a.youtube:hover
+{
+  background-color:#ff0000
+}
+.social-icons a.pinterest:hover
+{
+  background-color:#bd081c
 }
 @media (max-width:767px)
 {
