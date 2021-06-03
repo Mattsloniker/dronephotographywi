@@ -303,23 +303,6 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
     text-align:center
   }
 }
-.social-icons
-{
-  color:#ffffff;
-  padding-left:0;
-  margin-bottom:0;
-  list-style:none;
-  margin: auto;
-  width: 100%;
-  justify-content:center;
-  align-items:center;
-}
-.social-icons li
-{
-  display:inline-block;
-  margin-bottom:4px
-}
-
 .social-icons a{
   background-color:#26272b;
   color:rgb(255, 255, 255);
@@ -333,6 +316,8 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   -webkit-transition:all .2s linear;
   -o-transition:all .2s linear;
   transition:all .2s linear;
+  justify-content:center;
+  align-items:center;
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
