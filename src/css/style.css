@@ -64,7 +64,7 @@ body{margin:0;background:#fff}
 .testi-inner .avatar{display:block;margin:0 auto;margin-bottom:15px;width:100px;height:100px;object-fit:cover;border-radius:100%}
 .testi-inner .name{margin:0}
 .testimonials{overflow:hidden}
-.testi-inner .sub-name{font-size:14px}
+.testi-inner .sub-name{font-size:14px;text-align:center}
 .testimonials{text-align:center}
 form label{width:100%}
 form input,
