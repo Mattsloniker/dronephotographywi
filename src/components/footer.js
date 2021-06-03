@@ -14,7 +14,6 @@ export default class footer extends Component {
 <p class="text-justify">
 Beloit, WI 53511</p>
 <li><a href="HHPhotography@dronephotographywi.com">HHPhotography@dronephotographywi.com</a></li>
-<p class="text-justify">
 <li><a href="tel:608-313-4495">(608)313-4495</a></li>
 <p class="text-justify">
 Open 24/7</p>
