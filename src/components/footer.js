@@ -45,7 +45,8 @@ export default class footer extends Component {
               <li><a class="snapchat" href="https://www.snapchat.com/add/wiphotographer/"><i class="fab fa-snapchat"></i></a></li>  
               <li><a class="instagram" href="https://www.instagram.com/hhphotographywi"><i class="fab fa-instagram"></i></a></li>   
               <li><a class="linkedin" href="https://www.linkedin.com/public-profile/in/hhphotographywi"><i class="fab fa-linkedin-in"></i></a></li>  
-             <li><a class="pinterest" href="https://www.pinterest.com/hhphotographywi/"><i class="fab fa-pinterest-p"></i></a></li>  
+             <li><a class="tiktok" href="https://www.tiktok.com/@matt_sloniker"><i class="fab fa-tiktok"></i></a></li>  
+             <li><a class="pinterest" href="https://www.pinterest.com/hhphotographywi/"><i class="fab fa-pinterest-p"></i></a></li>
             </ul>
           </div>
           </div>
