@@ -37,8 +37,6 @@ export default class footer extends Component {
          <a href="https://dronephotographywi.com/"> HHPhotography</a>.
             </p>
           </div>
-        </div>
-      </div>
       <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
               <li><a class="facebook" href="https://www.facebook.com/HHPhotographyWI/"><i class="fa fa-facebook"></i></a></li>
@@ -50,6 +48,8 @@ export default class footer extends Component {
              <li><a class="Pinterest" href="https://www.pinterest.com/hhphotographywi/"><i class="fa fa-pinterest"></i></a></li>  
             </ul>
           </div>
+          </div>
+      </div>
       </div>
     )
   }
