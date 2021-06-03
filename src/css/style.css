@@ -235,15 +235,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   line-height:24px;
   color:#26272b;
 }
-.site-footer hr
-{
-  border-top-color:#bbb;
-  opacity:0.5
-}
-.site-footer hr.small
-{
-  margin:20px 0
-}
+
 .site-footer h6
 {
   color:#fff;
@@ -285,7 +277,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 }
 .site-footer .social-icons
 {
-  text-align:right;
+  text-align:center;
   background-color:#ffffff;
 }
 .site-footer .social-icons a
@@ -300,7 +292,6 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 }
 .copyright-text
 {
-  margin:0;
   color:rgb(255, 255, 255);
   text-align:center;
   margin: auto;
