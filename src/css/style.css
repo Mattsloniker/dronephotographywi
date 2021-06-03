@@ -273,6 +273,7 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 {
   color:#0f94c9;
   text-decoration:none;
+  background-color:black;
 }
 .footer-links.inline li
 {
@@ -310,12 +311,10 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 {
   .site-footer
   {
-    background-color:black;
     padding-bottom:0
   }
   .site-footer .copyright-text,.site-footer .social-icons
   {
-    background-color:black;
     text-align:center;
   }
 }
