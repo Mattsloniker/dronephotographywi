@@ -311,15 +311,20 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 }
 .social-icons li
 {
-  display:inline-block;
   margin-bottom:4px;
+  text-align:center;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 320px;
 }
 
 .social-icons a{
   background-color:#26272b;
   color:rgb(255, 255, 255);
   font-size:30px;
+  display:inline-block;
   line-height:70px;
   width:70px;
   height:70px;
@@ -328,11 +333,6 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
   -webkit-transition:all .2s linear;
   -o-transition:all .2s linear;
   transition:all .2s linear;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  max-width: 320px;
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
