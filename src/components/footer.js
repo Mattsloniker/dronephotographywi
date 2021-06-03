@@ -35,6 +35,8 @@ export default class footer extends Component {
          <a href="https://dronephotographywi.com/"> HHPhotography</a>.
             </p>
           </div>
+          <hr>
+      </hr>
       <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
               <li><a class="facebook" href="https://www.facebook.com/HHPhotographyWI/"><i class="fab fa-facebook-f"></i></a></li>
