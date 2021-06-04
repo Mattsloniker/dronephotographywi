@@ -27,7 +27,7 @@ export default class Banner extends Component {
                   className="fab fa-youtube"
                   href="https://www.youtube.com/channel/UCovZdjo6ztPtuBXGaIqTxdg"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="me"
                 ></a>
               </li>
               <li>
@@ -35,7 +35,7 @@ export default class Banner extends Component {
                   className="fab fa-facebook-f"
                   href={data.facebook}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="me"
                 ></a>
               </li>
               <li>
@@ -43,7 +43,7 @@ export default class Banner extends Component {
                   className="fab fa-twitter"
                   href={data.twitter}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="me"
                 ></a>
               </li>
               <li>
@@ -51,7 +51,7 @@ export default class Banner extends Component {
                   className="fab fa-snapchat"
                   href="https://www.snapchat.com/add/wiphotographer/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="me"
                 ></a>
               </li>
               </ul>
@@ -61,7 +61,7 @@ export default class Banner extends Component {
                   className="fab fa-instagram"
                   href={data.instagram}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="me"
                 ></a>
               </li>
               <li>
@@ -69,7 +69,7 @@ export default class Banner extends Component {
                   className="fab fa-linkedin-in"
                   href={data.linkdin}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="me"
                 ></a>
               </li>
                  <li>
@@ -77,7 +77,7 @@ export default class Banner extends Component {
                   className="fab fa-tiktok"
                   href="https://vm.tiktok.com/ZMeehDy4p/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="me"
                 ></a>
               </li>
               <li>
@@ -85,7 +85,7 @@ export default class Banner extends Component {
                   className="fab fa-pinterest-p"
                   href="https://www.pinterest.com/hhphotographywi/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="me"
                 ></a>
               </li>
             </ul>
