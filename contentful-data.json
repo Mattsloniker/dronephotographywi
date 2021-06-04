@@ -3054,7 +3054,7 @@
       }
     }
   ],
-  "assets": [ "src/robots.txt",
+  "assets": [
     {
       "sys": {
         "space": {
@@ -3062,6 +3062,7 @@
             "type": "Link",
             "linkType": "Space",
             "id": "4bwt4pzmqo4p"
+
           }
         },
         "id": "5053xqiD6rGY5Z3xDASnAo",
