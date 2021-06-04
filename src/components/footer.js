@@ -22,7 +22,7 @@ export default class footer extends Component {
               <li><a href="https://dronephotographywi.com/about-us"><h3>About</h3></a></li>
               <li><a href="https://dronephotographywi.com/#Service"><h3>Pricing Table</h3></a></li>
               <li><a href="https://dronephotographywi.blog/"><h3>Blog</h3></a></li>
-              <li><a href="https://dronephotographywi.com/#Testimonials"><h3>Reviews</h3></a></li>
+              <li><a link rel="canonical" href="https://dronephotographywi.com/#Testimonials"><h3>Reviews</h3></a></li>
             </ul>
           </div>
           </div>
@@ -34,8 +34,8 @@ export default class footer extends Component {
                   rel="me"><i class="fab fa-facebook-f"></i></a></li>
               <li><a class="youtube" href="https://www.youtube.com/channel/UCovZdjo6ztPtuBXGaIqTxdg" target="_blank"
                   rel="me"><i class="fab fa-youtube"></i></a></li>
-              <li><a class="twitter" href="https://twitter.com/hhphotographywi"><i class="fab fa-twitter" target="_blank"
-                  rel="me"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/hhphotographywi"target="_blank"
+                  rel="me"><i class="fab fa-twitter"></i></a></li>
               <li><a class="snapchat" href="https://www.snapchat.com/add/wiphotographer/" target="_blank"
                   rel="me"><i class="fab fa-snapchat"></i></a></li>  
               <li><a class="instagram" href="https://www.instagram.com/hhphotographywi" target="_blank"
