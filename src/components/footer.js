@@ -30,14 +30,22 @@ export default class footer extends Component {
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
-              <li><a class="facebook" href="https://www.facebook.com/HHPhotographyWI/"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a class="youtube" href="https://www.youtube.com/channel/UCovZdjo6ztPtuBXGaIqTxdg"><i class="fab fa-youtube"></i></a></li>
-              <li><a class="twitter" href="https://twitter.com/hhphotographywi"><i class="fab fa-twitter"></i></a></li>
-              <li><a class="snapchat" href="https://www.snapchat.com/add/wiphotographer/"><i class="fab fa-snapchat"></i></a></li>  
-              <li><a class="instagram" href="https://www.instagram.com/hhphotographywi"><i class="fab fa-instagram"></i></a></li>   
-              <li><a class="linkedin" href="https://www.linkedin.com/public-profile/in/hhphotographywi"><i class="fab fa-linkedin-in"></i></a></li>  
-             <li><a class="tiktok" href="https://www.tiktok.com/@matt_sloniker"><i class="fab fa-tiktok"></i></a></li>  
-             <li><a class="pinterest" href="https://www.pinterest.com/hhphotographywi/"><i class="fab fa-pinterest-p"></i></a></li>
+              <li><a class="facebook" href="https://www.facebook.com/HHPhotographyWI/" target="_blank"
+                  rel="me"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a class="youtube" href="https://www.youtube.com/channel/UCovZdjo6ztPtuBXGaIqTxdg" target="_blank"
+                  rel="me"><i class="fab fa-youtube"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/hhphotographywi"><i class="fab fa-twitter" target="_blank"
+                  rel="me"></i></a></li>
+              <li><a class="snapchat" href="https://www.snapchat.com/add/wiphotographer/" target="_blank"
+                  rel="me"><i class="fab fa-snapchat"></i></a></li>  
+              <li><a class="instagram" href="https://www.instagram.com/hhphotographywi" target="_blank"
+                  rel="me"><i class="fab fa-instagram"></i></a></li>   
+              <li><a class="linkedin" href="https://www.linkedin.com/public-profile/in/hhphotographywi" target="_blank"
+                  rel="me"><i class="fab fa-linkedin-in"></i></a></li>  
+             <li><a class="tiktok" href="https://www.tiktok.com/@matt_sloniker" target="_blank"
+                  rel="me"><i class="fab fa-tiktok"></i></a></li>  
+             <li><a class="pinterest" href="https://www.pinterest.com/hhphotographywi/" target="_blank"
+                  rel="me"><i class="fab fa-pinterest-p"></i></a></li>
             </ul>
           </div>
           <div class="container">
