@@ -3054,7 +3054,7 @@
       }
     }
   ],
-  "assets": [
+  "assets": [ "src/robots.txt",
     {
       "sys": {
         "space": {
