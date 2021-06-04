@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Sitemap: https://dronephotographywi.com/sitemap.xml
+
+Disallow: /blogs/
+Disallow: /photos/
+Disallow: /404/
+Disallow: /offline-plugin-app-shell-fallback/
