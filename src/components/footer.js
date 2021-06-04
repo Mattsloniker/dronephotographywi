@@ -18,9 +18,9 @@ export default class footer extends Component {
           <div class="col-xs-6 col-md-3">
             <h2>Categories</h2>
             <ul class="footer-links">
-              <li><a href="https://dronephotographywi.com"><h3>Top</h3></a></li>
+              <li><a link rel="canonical" href= "https://dronephotographywi.com"><h3>Top</h3></a></li>
               <li><a href="https://dronephotographywi.com/about-us"><h3>About</h3></a></li>
-              <li><a href="https://dronephotographywi.com/#Service"><h3>Pricing Table</h3></a></li>
+              <li><a link rel="canonical" href="https://dronephotographywi.com/#Service"><h3>Pricing Table</h3></a></li>
               <li><a href="https://dronephotographywi.blog/"><h3>Blog</h3></a></li>
               <li><a link rel="canonical" href="https://dronephotographywi.com/#Testimonials"><h3>Reviews</h3></a></li>
             </ul>
