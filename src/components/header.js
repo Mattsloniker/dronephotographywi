@@ -11,7 +11,7 @@ export default class Header extends Component {
 
   render() {
     const { data, header } = this.props;
-    <meta name="viewport" content="width=device-width, initial-scale=2"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     const { menu } = this.state;
     return (
       <header className={`site-header ${menu ? "active" : ""}`}>
