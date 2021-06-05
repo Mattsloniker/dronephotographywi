@@ -49,8 +49,6 @@ export default class Banner extends Component {
                   aria-label="Follow Matt Sloniker on Linkedin"
                 ></a>
               </li>
-                 <li>
-              </li>
               <li>
                 <a
                   className="fab fa-pinterest-p"
