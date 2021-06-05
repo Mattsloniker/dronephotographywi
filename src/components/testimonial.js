@@ -37,7 +37,7 @@ export default class Testimonial extends Component {
                         __html: item.node.description.childMarkdownRemark.html
                       }}
                     />
-                    <h5 className="name">{item.node.name}</h5>
+                    <p className="name">{item.node.name}</p>
                     <span className="sub-name">{item.node.subTitle}</span>
                   </div>
                 </div>
