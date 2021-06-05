@@ -32,9 +32,9 @@ const IndexPage = ({ data }) => (
       })}
 
    {data.contentfulSiteInformation.menus
-      .filter(item => item === "YouTube")
+      .filter(item => item === "contact")
       .map(t => {
-        return <Contact key="Youtube" data={data.allContentfulYouTube}></Contact>;
+        return <Contact key="contact" data={data.allContentfulcontact}></Contact>;
       })}
 
     {data.contentfulSiteInformation.menus
