@@ -2,12 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
-import seo from "contentfulSiteInformation.nofollow"
 
-const seo = contentfulSiteInformation.nofollow;
-const robots = [
-  seo.no_follow === true ? 'nofollow' : undefined,
-].filter((x) => x !== undefined);
 
 function SEO({ description, lang, meta, keywords, title, data }) {
   return (
@@ -21,7 +16,6 @@ function SEO({ description, lang, meta, keywords, title, data }) {
             }}
             title={title}
             titleTemplate={`%s | ${data.contentfulSiteInformation.siteName}`}
-            {...robots.length > 0 && <meta name="robots" content={robots.join(', ')} />}
             meta={[
               {
                 name: `description`,
