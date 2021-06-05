@@ -36,6 +36,7 @@ export default class Banner extends Component {
                   href={data.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Facebook"
                 ></a>
               </li>
               <li>
@@ -44,6 +45,7 @@ export default class Banner extends Component {
                   href={data.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Twitter"
                 ></a>
               </li>
               <li>
@@ -52,6 +54,7 @@ export default class Banner extends Component {
                   href="https://www.snapchat.com/add/wiphotographer/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Snapchat"
                 ></a>
               </li>
               </ul>
@@ -62,6 +65,7 @@ export default class Banner extends Component {
                   href={data.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Instagram"
                 ></a>
               </li>
               <li>
@@ -70,6 +74,7 @@ export default class Banner extends Component {
                   href={data.linkdin}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Linkedin"
                 ></a>
               </li>
                  <li>
@@ -78,6 +83,7 @@ export default class Banner extends Component {
                   href="https://vm.tiktok.com/ZMeehDy4p/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Tiktok"
                 ></a>
               </li>
               <li>
@@ -86,6 +92,7 @@ export default class Banner extends Component {
                   href="https://www.pinterest.com/hhphotographywi/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Pinterest"
                 ></a>
               </li>
             </ul>
