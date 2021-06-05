@@ -22,7 +22,7 @@ export default class footer extends Component {
               <li><a href="https://dronephotographywi.com/about-us"><h3>About</h3></a></li>
               <li><a link rel="canonical" href="https://dronephotographywi.com/#Service"><h3>Pricing Table</h3></a></li>
               <li><a href="https://dronephotographywi.blog/"><h3>Blog</h3></a></li>
-              <li><a link rel="canonical" href="https://dronephotographywi.com/#Testimonials"><h3>Reviews</h3></a></li>
+              <li><a link rel="canonical" href="https://dronephotographywi.com/#Testimonials"><h3>Testimonials</h3></a></li>
             </ul>
           </div>
           </div>
