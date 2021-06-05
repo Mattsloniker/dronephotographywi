@@ -24,38 +24,11 @@ export default class Banner extends Component {
             <ul className="social">
               <li>
                 <a
-                  className="fab fa-youtube"
-                  href="https://www.youtube.com/channel/UCovZdjo6ztPtuBXGaIqTxdg"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Youtube"
-                ></a>
-              </li>
-              <li>
-                <a
                   className="fab fa-facebook-f"
                   href={data.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Facebook"
-                ></a>
-              </li>
-              <li>
-                <a
-                  className="fab fa-twitter"
-                  href={data.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Twitter"
-                ></a>
-              </li>
-              <li>
-                <a
-                  className="fab fa-snapchat"
-                  href="https://www.snapchat.com/add/wiphotographer/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Snapchat"
+                  aria-label="Follow us on Facebook"
                 ></a>
               </li>
               </ul>
@@ -66,7 +39,7 @@ export default class Banner extends Component {
                   href={data.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Instagram"
+                  aria-label="Follow us on Instagram"
                 ></a>
               </li>
               <li>
@@ -75,17 +48,10 @@ export default class Banner extends Component {
                   href={data.linkdin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Linkedin"
+                  aria-label="Follow Matt Sloniker on Linkedin"
                 ></a>
               </li>
                  <li>
-                <a
-                  className="fab fa-tiktok"
-                  href="https://vm.tiktok.com/ZMeehDy4p/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Tiktok"
-                ></a>
               </li>
               <li>
                 <a
@@ -93,7 +59,7 @@ export default class Banner extends Component {
                   href="https://www.pinterest.com/hhphotographywi/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label="Pinterest"
+                  aria-label="Follow us on Pinterest"
                 ></a>
               </li>
             </ul>
