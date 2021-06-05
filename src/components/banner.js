@@ -21,7 +21,7 @@ export default class Banner extends Component {
               return <li key={index}>{item}</li>;
               })}
             </ul>
-            <ul className="social">
+              <ul className="social">
               <li>
                 <a
                   className="fab fa-facebook-f"
@@ -31,8 +31,6 @@ export default class Banner extends Component {
                   aria-label="Follow us on Facebook"
                 ></a>
               </li>
-              </ul>
-              <ul className="social">
               <li>
                 <a
                   className="fab fa-instagram"
