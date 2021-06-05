@@ -11,7 +11,7 @@ export default class footer extends Component {
             <h2>Contact</h2>
             <ul class="footer-links">
             <li><a href="https://g.page/HHPhotographyWI?share"><h3>1131 Prairie Ave, Beloit, WI 53511</h3></a></li>
-            <li><a href="mailto:HHPhotography@dronephotographywi.com"><h3>Email us</h3></a></li>
+            <li><a href="mailto:HHPhotography@dronephotographywi.com"><h3>Email us here</h3></a></li>
             <li><a href="tel:608-313-4495"><h3>Call or text us at (608) 313-4495</h3></a></li>
             </ul>
           </div>
