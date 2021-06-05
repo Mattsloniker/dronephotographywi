@@ -282,10 +282,9 @@ code{background-color:#333;border-radius:3px;margin-bottom:30px;display:block;pa
 {
   color:rgb(255, 255, 255);
 }
-.copyright-links a
+.copyright-text li
   {
     color:rgb(255, 255, 255);
-   
 }
 @media (max-width:991px)
 {
