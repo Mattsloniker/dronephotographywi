@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
+import seo from "contentfulSiteInformation.nofollow"
+
 const seo = contentfulSiteInformation.nofollow;
 const robots = [
   seo.no_follow === true ? 'nofollow' : undefined,
