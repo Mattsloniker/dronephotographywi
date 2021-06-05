@@ -20,7 +20,7 @@ export default class Header extends Component {
             <div className="logo">
               <Link to="/">
                 {data.logo.file.url ? (
-                  <img src={data.logo.file.url} alt="logo"  width= "80vw" height= "80vh"/>
+                  <img src={data.logo.file.url} alt="logo"  width= "160vw" height= "160vh"/>
                 ) : (
                   <span>{data.siteName}</span>
                 )}
