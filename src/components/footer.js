@@ -51,9 +51,9 @@ export default class footer extends Component {
           <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
-            <ul class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+            <script class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
             <a href="https://dronephotographywi.com/"> HHPhotography</a>.
-            </ul>
+            </script>
           </div>
       </div>
       </div>
