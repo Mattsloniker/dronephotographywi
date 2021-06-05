@@ -8,7 +8,8 @@ var settings = {
   slidesToScroll: 1,
   autoplay: true,
   pauseOnHover: true,
-  autoplaySpeed: 6000
+  autoplaySpeed: 6000,
+  infinite: false
 };
 
 export default class Testimonial extends Component {
