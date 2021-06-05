@@ -10,15 +10,9 @@ import Work from "../components/work";
 import Testimonial from "../components/testimonial";
 import Contact from "../components/contact";
 
-const seo = data.contentfulAboutMe.no_follow
-const robots = [
-  seo.no_index === true ? 'noindex' : undefined,
-  seo.no_follow === true ? 'nofollow' : undefined,
-].filter((x) => x !== undefined);
 
 const IndexPage = ({ data }) => (
   <Layout header="home">
-    {robots.length > 0 && <meta name="robots" content={robots.join(', ')} />}
     <SEO
       title={data.contentfulAboutMe.designation}
       keywords={[`Photography`, `Commercial Photography`, `Photographer`, `Drone Photographer`, `Wisconsin` , 'Arieal Drone Photographer']}
