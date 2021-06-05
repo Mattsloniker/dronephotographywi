@@ -10,18 +10,18 @@ export default class footer extends Component {
           <div class="col-sm-12 col-md-6">
             <h2>Contact</h2>
             <ul class="footer-links">
-            <li><a href="https://g.page/HHPhotographyWI?share"><h3>1131 Prairie Ave, Beloit, WI 53511</h3></a></li>
             <li><a href="mailto:HHPhotography@dronephotographywi.com"><h3>Email us here</h3></a></li>
+            <li><a href="https://g.page/HHPhotographyWI?share"><h3>Located in Beloit, WI 53511</h3></a></li>
             <li><a href="tel:608-313-4495"><h3>Call or text us at (608) 313-4495</h3></a></li>
             </ul>
           </div>
           <div class="col-xs-6 col-md-3">
             <h2>Categories</h2>
             <ul class="footer-links">
-              <li><a href="https://dronephotographywi.com"><h3>back to the home page</h3></a></li>
+              <li><a href="https://dronephotographywi.com"><h3>Home page</h3></a></li>
+              <li><a href="https://dronephotographywi.blog/"><h3>Read our blogs</h3></a></li>
               <li><a href="https://dronephotographywi.com/about-us"><h3>Find more about us</h3></a></li>
               <li><a href="https://dronephotographywi.com/#Service"><h3>Pricing information</h3></a></li>
-              <li><a href="https://dronephotographywi.blog/"><h3>Read our blogs</h3></a></li>
               <li><a href="https://dronephotographywi.com/#Testimonials"><h3>What our customers have said</h3></a></li>
             </ul>
           </div>
