@@ -28,6 +28,7 @@ export default class Banner extends Component {
                   href="https://www.youtube.com/channel/UCovZdjo6ztPtuBXGaIqTxdg"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Youtube"
                 ></a>
               </li>
               <li>
