@@ -60,6 +60,9 @@ export default class Header extends Component {
                    <li key="About Us">
                           <Link to="/about-us">About Us</Link>
                     </li>
+                    <li key="Contact">
+                          <Link to="/contact">About Us</Link>
+                    </li>
                   {data.menus
                     .filter(item => item === "Service")
                     .map(t => {
