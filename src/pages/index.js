@@ -31,18 +31,18 @@ const IndexPage = ({ data }) => (
         return <Service key="Service" data={data.allContentfulService}></Service>;
       })}
 
-   {data.contentfulSiteInformation.menus
-      .filter(item => item === "Contact")
-      .map(t => {
-        return <Contact key="Contact" data={data.allContentfulContact}></Contact>;
-      })}
-
     {data.contentfulSiteInformation.menus
       .filter(item => item === "Testimonials")
       .map(t => {
         return (
           <Testimonial key="Testimonial" data={data.allContentfulTestimonials}></Testimonial>
         );
+      })}
+
+    {data.contentfulSiteInformation.menus
+      .filter(item => item === "Contact")
+      .map(t => {
+        return <Contact key="Contact" data={data.allContentfulContact}></Contact>;
       })}
   </Layout>
 );
