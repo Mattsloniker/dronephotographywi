@@ -20,6 +20,7 @@ export default class work extends Component {
                         fluid={item.node.image.fluid}
                         objectFit="cover"
                         objectPosition="50% 50%"
+                        alt={item.node.alttext}
                       />
                       <span className="name">{item.node.siteName}</span>
                     </a>
